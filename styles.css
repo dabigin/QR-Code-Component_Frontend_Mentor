@@ -1,9 +1,8 @@
-:root {
-  --background-color: hsl(212, 45%, 89%); /* - Slate 300: -*/
-  --text-preset-1: hsl(218, 44%, 22%) /* - Slate 900: -*/
-  --text-preset-2: hsl(216, 15%, 48%) /* - Slate 500: -*/
-  --white-color: hsl(0, 0%, 100%) /* -White color - */ 
-}
+/* background-color: hsl(212, 45%, 89%);  - Slate 300: 
+  text-preset-1: hsl(218, 44%, 22%)  - Slate 900: 
+  text-preset-2: hsl(216, 15%, 48%)  - Slate 500: 
+   hsl(0, 0%, 100%)  -White color -   */
+
 /* Media Query's Width's- Mobile: 375px
 - Desktop: 1440px */
 
@@ -11,15 +10,55 @@
 
 /* Typography 
 TextPreset1 Outfit Bold 22px 120 Line Height 0px Letter spacing
-TextPreset2 Outfit Regular 15px 140 Line Heigh 0.2px Letter spacing 
+TextPreset2 Outfit Regular 15px 140 Line Height 0.2px Letter spacing 
 */
 
 body {
-  background-color: var(--background-color);
+  background-color: hsl(212, 45%, 89%);
 }
 
+.card {
+  max-width: fit-content;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(0, 0%, 100%);
+  width: 320px;
+  height: 499px;
+  padding: 24px 16px 40px 16px;
+}
+
+.card h1 {
+  color: hsl(218, 44%, 22%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+.card p {
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+img {
+  border-radius: 15px;
+}
 
 .attribution {
+  position: absolute;
+  top: 0;
+  right: 0;
   font-size: 11px;
   text-align: center;
 }
@@ -27,5 +66,3 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-
