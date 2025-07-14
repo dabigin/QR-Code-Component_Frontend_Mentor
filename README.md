@@ -28,7 +28,7 @@ Additionally, I played around with the colors off the template page and changed 
 I decided to use border radius on both the image, and the card div, in order to get the desired rounded look on the edges of both the card div and the image, to get it to look like the preview. I also changed the font color to the right color and changed the styling so that the font looked right on the h2 and paragraph. I played around with the sizes and got it looking similar to the example.  
 
 In addition, I also added padding to the top of the h2 and p elements within the card, which gave the space that the design was calling for. I also added margin 0 and padding 0 to the entire page with the universal selector. I also had to add 40 pixels of padding underneath the paragraph in the card.  
- 
+
 At the close, I made sure to get the right size font, line height, and letter spacing, along with yanking something I seen off a youtube video so that the page was responsive when resizing. I believe it was ```margin: 0 1em;``` within the .card in the style sheet.
 
 [Back to Top](#frontend-mentor---qr-code-component)
@@ -59,6 +59,9 @@ I hope you enjoyed reading, This challenge is one of the first of many. I also e
 - Web Search
   - [Google Search](https://www.google.com)  
   - [Youtube](https://www.youtube.com)
+  - [W3Schools](https://www.w3schools.com)
+  - [MDN](https://www.mdn.)
+  - [Stack Overflow](https://stackoverflow.com/)
 
 [Back to top](#frontend-mentor---qr-code-component)
   
