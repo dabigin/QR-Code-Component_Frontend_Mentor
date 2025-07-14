@@ -11,6 +11,7 @@
   - [Links](#links)
   - [Building Process](#building-process)
     - [Tools Used](#tools-used)
+  - [Author Information](#author-information)
    
 
 ## The challenge
@@ -64,6 +65,14 @@ I hope you enjoyed reading, This challenge is one of the first of many. I also e
   - [Stack Overflow](https://stackoverflow.com/)
 
 [Back to top](#frontend-mentor---qr-code-component)
+
+## Author Information
+-[Dev.to](https://dev.to/dabigin)
+-[X aka Twitter] (https://x.com/Dabigin)
+-[Frontend Mentor](https://www.frontendmentor.io/profile/dabigin)  
+
+[Back to top](#frontend-mentor---qr-code-component)
+
   
 
 
