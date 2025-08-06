@@ -67,9 +67,9 @@ I hope you enjoyed reading, This challenge is one of the first of many. I also e
 [Back to top](#frontend-mentor---qr-code-component)
 
 ## Author Information
--[Dev.to](https://dev.to/dabigin)
--[X aka Twitter] (https://x.com/Dabigin)
--[Frontend Mentor](https://www.frontendmentor.io/profile/dabigin)  
+-[Dabigin on Dev.to](https://dev.to/dabigin)  
+-[Dabigin on Twitter](https://x.com/Dabigin)  
+-[Dabigin on Frontend Mentor](https://www.frontendmentor.io/profile/dabigin)   
 
 [Back to top](#frontend-mentor---qr-code-component)
 
