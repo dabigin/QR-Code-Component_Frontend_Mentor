@@ -62,17 +62,16 @@ body {
   font-weight: 700;
   font-size: 1.4666666667rem;
   margin: 0;
-  padding: 0 1.0666666667rem;
+  padding: 0;
   letter-spacing: 0px;
 }
 
 .text p {
-  padding: 1.0666666667rem 0 0 0;
+  margin: 1.0666666667rem 0 0 0;
   color: hsl(216, 15%, 48%);
   font-size: 1rem;
   font-weight: 400;
   flex-direction: column;
-  margin: auto 0;
   line-height: 1.25;
   letter-spacing: 0.01125rem;
 }
