@@ -16,6 +16,7 @@ TextPreset2 Outfit Regular 15px 140 Line Height 0.2px Letter spacing
   margin: 0;
   padding: 0;
   font-size: 15px;
+  box-sizing: border-box;
 }
 
 body {
@@ -33,22 +34,27 @@ body {
 
 .card {
   border-radius: 1.25rem;
-  max-width: 21.33rem;
-  padding: 1rem 1rem 0 1em;
+  width: 21.333333333rem;
+  min-height: 33.3333333333;
+  padding: 1.0666666667rem 1.0666666667rem 0 1.0666666667rem;
   background-color: hsl(0, 0%, 100%);
   text-align: center;
   box-shadow: 0 1.5625rem 3.125rem -0.75rem rgba(0, 0, 0, 0.05);
+  flex-direction: column;
+  display: flex;
+  margin: 0;
 }
 .card img {
   border-radius: 0.625rem;
-  width: 100%;
-  display: block;
-  height: auto;
+  width: 19.2rem;
+  height: 19.2rem;
+  align-items: center;
 }
 
 .text {
-  width: 288px;
-  padding: 1.6rem 1rem 2.6666666667rem 1rem;
+  width: 19.2rem;
+  padding: 1.6rem 1.0666666667rem 2.6666666667rem 1.0666666667rem;
+  text-align: center;
 }
 
 .text h1 {
@@ -56,16 +62,17 @@ body {
   font-weight: 700;
   font-size: 1.4666666667rem;
   margin: 0;
-  padding: 0 1rem;
+  padding: 0 1.0666666667rem;
   letter-spacing: 0px;
 }
 
 .text p {
-  padding: 1em 0 0 0;
+  padding: 1.0666666667rem 0 0 0;
   color: hsl(216, 15%, 48%);
   font-size: 1rem;
   font-weight: 400;
-  margin: 0;
+  flex-direction: column;
+  margin: auto 0;
   line-height: 1.25;
   letter-spacing: 0.01125rem;
 }
