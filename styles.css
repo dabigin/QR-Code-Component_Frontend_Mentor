@@ -12,6 +12,43 @@
 TextPreset1 Outfit Bold 22px 120 Line Height 0px Letter spacing
 TextPreset2 Outfit Regular 15px 140 Line Height 0.2px Letter spacing 
 */
+/* @media screen and (width < 915px) and (orientation: landscape) {
+  body {
+    position: relative;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2em;
+  }
+  .card {
+    border-radius: 1.25rem;
+    width: 21.333333333rem;
+    min-height: 33.3333333333;
+    padding: 1.0666666667rem 1.0666666667rem 0 1.0666666667rem;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    box-shadow: 0 1.5625rem 3.125rem -0.75rem rgba(0, 0, 0, 0.05);
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+
+    .attribution {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-size: 11px;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+  }
+} */
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +58,7 @@ TextPreset2 Outfit Regular 15px 140 Line Height 0.2px Letter spacing
 
 body {
   background-color: hsl(212, 45%, 89%);
+  flex-direction: column;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-size: 15px;
@@ -31,7 +69,9 @@ body {
   justify-content: center;
   padding: 0 2em;
 }
-
+main .container {
+  flex: 1;
+}
 .card {
   border-radius: 1.25rem;
   width: 21.333333333rem;
@@ -77,13 +117,14 @@ body {
 }
 
 .attribution {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: hsl(212, 45%, 89%);
+  width: 100%;
   font-size: 11px;
   text-align: center;
-  margin-bottom: 1em;
 }
 
 .attribution a {
