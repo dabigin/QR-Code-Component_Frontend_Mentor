@@ -12,15 +12,16 @@
 TextPreset1 Outfit Bold 22px 120 Line Height 0px Letter spacing
 TextPreset2 Outfit Regular 15px 140 Line Height 0.2px Letter spacing 
 */
-@media screen and (width > 915px) and (orientation: landscape) {
+@media (max-width: 768px) {
   .attribution {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
     font-size: 11px;
-    text-align: center;
-    margin-bottom: 1em;
   }
 }
 * {
@@ -90,15 +91,19 @@ main .container {
   letter-spacing: 0.01125rem;
 }
 .attribution {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  background-color: hsl(212, 45%, 89%);
-  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   font-size: 11px;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+footer {
+  text-align: center;
 }
